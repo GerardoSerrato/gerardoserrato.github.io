@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+p{
+    margin: none;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    line-height: 23px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    z-index: 8;
+}
+
+.logotext{
+    height: 90px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titvac{
+    color: rgb(32, 60, 174);
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    text-decoration:none;
+}
+
+.linklogo{
+    height: 60px;
+    width: 220px;
+    display: inline-flex;
+    align-items: center;  
+    justify-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left:  50px ;
+    padding-right: 20px; 
+}
+
+.botonera{
+    height: 90px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 180px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.botonestop{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(151, 151, 151);
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.botonesazul{
+    background-color: rgb(32, 60, 174);
+    border-radius: 14%;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.104);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cover{
+    width: 100%;
+    background-color: black;
+    height: 800px;
+    display: flex;
+}
+
+.leftcover{
+    width: 50%;
+    height: 100%-100px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.rightcover{
+    width: 50%;
+    height: 100%-100px;
+    padding-top: 100px;
+    background-image: url(./resourses/nurse.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+.titulocover{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 42px;
+}
+
+.textcover-cont{
+    width: 400px;
+    height: auto;
+    display: flex;
+    position: relative;
+    top: 110px;
+}
+
+.textcover{
+    width: 320px;
+    height: 70px;
+    display: flex;
+    margin: none;
+    align-items: center;
+}
+
+.subscovercont{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 130px ;
+    display: flex;
+
+}
+
+.subscover{
+    width: 320px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.subs{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.brands{
+    width: 100%;
+    height: 200px;
+}
