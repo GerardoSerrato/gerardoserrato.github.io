@@ -2,16 +2,23 @@ body{
     margin: 0px;
     background-color: antiquewhite;
 }
+
 p{
-    margin: none;
+    margin: 0%;
 }
 
 .texto{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    color: rgb(151, 151, 151);
+    color: rgb(143, 143, 143);
     font-weight: bold;
     line-height: 23px;
+}
+
+.inform{
+    width: 155px;
+    height: 25px;
+    border: 0px;
 }
 
 header{
@@ -87,6 +94,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .cover{
@@ -148,7 +156,6 @@ header{
     position: relative;
     top: 130px ;
     display: flex;
-
 }
 
 .subscover{
@@ -167,6 +174,79 @@ header{
     gap: 10px;
 }
 
+.preformcont{
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 270px ;
+    display: flex;
+    align-items: center;
+}
+
+.preform{
+    width: 270px;
+    height: 30px;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.formvacon{
+    width: 750px;
+    height: 90px;
+    position: relative;
+    top: 265px ;
+    left: 200px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.816);
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.07);
+    align-items: center;
+    padding: 20px;
+}
+
+.infocont{
+    height: 90px;
+    width: 610px;
+    display: flex;
+}
+
+.infobot{
+    height: 50px;
+    width: 160px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    height: 75px;
+    width: 196.6px;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.upinfo{
+    width: 180px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    align-content: center;
+    gap: 10px;
+}
+
+.downinfo{
+    width: 155px;
+    height: 25px;   
+    position: relative;
+    top:10px;
+    left: 25px;
+}
 
 .brands{
     width: 100%;
