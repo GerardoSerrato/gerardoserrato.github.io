@@ -83,7 +83,7 @@ header{
 
 .botonesazul{
     background-color: rgb(32, 60, 174);
-    border-radius: 14%;
+    border-radius: 4px;
     width: 100px;
     height: 40px;
     display: flex;
@@ -311,10 +311,10 @@ header{
 .recomid{
     width: 176px;
     height: 40px;
+    margin-bottom: 30px;
 }
 
 .titlzul{
-    margin-bottom: 10px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -324,10 +324,6 @@ header{
 .recodown{
     width: 176px;
     height: 100px ;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: rgb(143, 143, 143);
 }
 
 .preparation{
@@ -350,16 +346,15 @@ header{
     width: 634px;
     display: flex;
     flex-flow: column;
-
 }
 
-.titlprep{
+.title{
     width: 634px;
     height: 40px;
     margin-bottom: 30px;
 }
 
-.subprep{
+.subtitle{
     width: 530px;
     height: 100px;
     margin-bottom: 40px;
@@ -388,4 +383,75 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(15, 35, 114) ;
+}
+
+.emerg{ 
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+
+.centro{
+    left: 70px ;
+    position: relative;
+}
+
+.contactcon{
+    height: 300px;
+    width: 460px;
+    margin-top: 40px;
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contacto{
+    height: 115px;
+    width: 195px;
+    box-shadow: 3px 8px 8px rgba(128, 128, 128, 0.179);
+    border-radius: 5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 15px 20px 15px;
+}
+
+.upem{
+    height: 40px;
+    width: 195px;
+    display: flex;
+    gap: 15px;
+}
+
+.emtext{
+    height: 40px;
+    width: 140px;
+    display: flex;
+    flex-flow: column;
+    gap: 6px;
+}
+
+.minitext{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+}
+
+.botonesem{
+    background-color: rgb(32, 60, 174);
+    border-radius: 4px;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 8px 8px rgba(73, 69, 136, 0.446);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
 }
